@@ -47,7 +47,9 @@ Substitua `arquivo.cpp` pelo nome do arquivo-fonte desejado. Caso o programa uti
 
 ## Autores
 
-- Adicione aqui os nomes dos integrantes do grupo.
+- Gustavo de Sousa Carvalho
+- Diogo Rangel Lopes Gonçalves
+- Pedro Luz Lima
 
 **Instituição:** Universidade Federal do Piauí (UFPI)  
 **Disciplina:** Projeto e Análise de Algoritmos  
