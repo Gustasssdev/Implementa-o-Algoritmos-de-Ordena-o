@@ -227,7 +227,7 @@ int main() {
 
     int* vet = new int[TAM];
 
-    srand(time(0));
+    srand(time(0)); // cria uma seed com base no tempo atual, para que os valores sejam os mais aleatórios possíveis dentro do array
     
     for (int i = 0; i < TAM; i++) {
         vet[i] = rand() % TAM;
@@ -244,7 +244,7 @@ int main() {
     if (outputFile.is_open()){
         std::cout << "Aberto, vamos gravar os ordenados" << endl;
         for (int i = 0; i < TAM; i++){
-            outputFile << vet[i] << " ";        
+            outputFile << vet[i] << "\n";        
         }
         outputFile.close();
     }
