@@ -47,9 +47,8 @@ Substitua `arquivo.cpp` pelo nome do arquivo-fonte desejado. Caso o programa uti
 
 ## Autores
 
-- Gustavo de Sousa Carvalho
-- Diogo Rangel Lopes Gonçalves
-- Pedro Luz Lima
+- [@Gustasssdev](https://github.com/SeuUsuario)  
+- [@DiogoRangel11](https://github.com/DiogoRangel11)  
 
 **Instituição:** Universidade Federal do Piauí (UFPI)  
 **Disciplina:** Projeto e Análise de Algoritmos  
