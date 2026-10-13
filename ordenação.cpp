@@ -109,17 +109,17 @@ void RadixSort(int vet[], int tam){
 
 void CountingSort(int vet[], int tam){
     int max = vet[0];
-    for (int i = 1; i < tam; i++){
+    for (int i = 0; i < tam; i++){
         if(vet[i] > max){max = vet[i];} // percorro de forma linear ate achar o maior valor
     }
 
-    int* count = new int[tam]; // vetor para contar as ocorrências
+    int* count = new int[max+1](); // vetor para contar as ocorrências
     for (int i = 0; i < tam; i++){
         count[vet[i]]++; // conto quantas vezes o valor aparece no nosso array
     }
 
     int index = 0;
-    for (int i = 0; i < max; i++){
+    for (int i = 0; i <= max; i++){
         while (count[i] > 0){
             vet[index++] = i;
             count[i]--;
