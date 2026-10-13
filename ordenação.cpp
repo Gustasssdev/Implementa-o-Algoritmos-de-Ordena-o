@@ -234,7 +234,17 @@ int main() {
     }
 
     // Mede o tempo da ordenacao
-
+    std::ofstream inputFile("Vetor.txt"); // vetor de numeros ainda não ordenados
+    if (inputFile.is_open()){
+        std::cout << "Aberto, vamos gravar o vetor" << endl;
+        for (int i = 0; i < TAM; i++){
+            inputFile << vet[i] << "\n";        
+        }
+        inputFile.close();
+    }
+    else {
+        std::cout << "ERRO!" << endl;
+    }
     medirTempo(vet, TAM, escolha);
 
 
